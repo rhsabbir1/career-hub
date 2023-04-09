@@ -12,7 +12,7 @@ const Header = () => {
                 <a className='mr-4 text-2xl' href="">Star Applying</a>
             </div>
             <div>
-                <button className='font-bold text-white bg-purple-400 py-2 px-4 rounded-md'>Star Applying</button>
+                <button className='btn'>Star Applying</button>
             </div>
         </div>
         </div>
