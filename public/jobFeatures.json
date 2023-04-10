@@ -1,0 +1,112 @@
+[
+    {
+        "id": "623853b2614ad",
+        "company_Logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpn17snyUBQ889JAXIDYSamez941bH3Q8T2A&usqp=CAU",
+        "job_title": "Technical Database Engineer",
+        "Company_Name": "Google LLC",
+        "remote_or_Onsite": "Remote",
+        "Location": "Dhaka, Bangladesh",
+        "shidule": "Fulltime",
+        "Salary": "100K - 150K",
+        "job_Description": "Google is seeking a talented software engineer to join our team in Mountain View, CA. As a software engineer, you will be responsible for designing and developing cutting-edge software solutions that will help us shape the future of technology",
+        "job_Responsibility":"Design, develop, and test software applications and systems that meet business requirements and exceed customer expectations.Collaborate with cross-functional teams to deliver high-quality products on time.",
+       "educational_Requirements":"BS or MS in Computer Science, related",
+         "experiences":"2-4",
+        "Contact_information":{
+            "phone" : "01700000000",
+            "email" : "gl15@gmail.com"
+        }
+    }
+    ,
+    {
+        "id": "623853b261cd",
+        "company_Logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTChXufpV_v_o9LKl3izroWZtq9RsDR5eIz8A&usqp=CAU",
+        "job_title": "Senior Product Designer",
+        "Company_Name": "Netflix",
+        "remote_or_Onsite": "Remote",
+        "Location": "Dhaka, Bangladesh",
+        "shidule": "Fulltime",
+        "Salary": "80K - 120K",
+        "job_Description": "Netflix is seeking a talented software engineer to join our team in Los Gatos, CA. As a software engineer, you will be responsible for designing and developing cutting-edge software solutions that will help us shape the future of entertainment",
+        "job_Responsibility":"Design and develop software solutions that meet business requirements and exceed customer expectations.Write high-quality, efficient, and maintainable code.",
+       "educational_Requirements":"BS or MS in Computer Science",
+         "experiences":"3",
+        "Contact_information":{
+            "phone" : "01300000000",
+            "email" : "nt25@gmail.com"
+        }
+    },
+    {
+        "id": "623853b262rs",
+        "company_Logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8XHWY4EaJzjOYXA2KnX8WYcFANKj4zuz9Gqbbka9C9UhCcDoOmT4PlOTNV8n5uHdw3xI&usqp=CAU",
+        "job_title": "Software Engineer",
+        "Company_Name": "Tesla",
+        "remote_or_Onsite": "Onsite",
+        "Location": "Dhaka, Bangladesh",
+        "shidule": "Part Time",
+        "Salary": "80K - 100K",
+        "job_Description": "Tesla is seeking a talented software engineer to join our team. As a software engineer at Tesla, you will be responsible for designing, developing, and testing cutting-edge software solutions that will help us shape the future of sustainable energy and transportation.",
+        "job_Responsibility":"Design, develop, and test software solutions for Tesla's products and services.Participate in code reviews to ensure code quality, maintainability, and adherence to best practices.",
+       "educational_Requirements":"BS or MS in Computer Science",
+         "experiences":"2-3",
+        "Contact_information":{
+            "phone" : "01200000000",
+            "email" : "ts2@gmail.com"
+        }
+    },
+
+    {
+        "id": "623853b265rk",
+        "company_Logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvweS7RJBGG746WAK16jvcvhPZhEHLiV-nHA&usqp=CAU",
+        "job_title": "Motion Graphic Designer",
+        "Company_Name": "Airbnb LLC",
+        "remote_or_Onsite": "Remote",
+        "Location": "Dhaka, Bangladesh",
+        "shidule": "Part Time",
+        "Salary": "60K - 80K",
+        "job_Description": "A Graphics Designer is responsible for creating visual concepts, using computer software or by hand, to communicate ideas that inspire, inform, or captivate consumers. They develop the overall layout and production design for advertisements, brochures, magazines, and corporate reports.",
+        "job_Responsibility":"Meet with clients or the art director to determine the scope of a project.Use digital illustration, photo editing software, and layout software to create designs.",
+       "educational_Requirements":"Bachelor's degree in Graphic Design or related field",
+         "experiences":"2",
+        "Contact_information":{
+            "phone" : "01900000000",
+            "email" : "ctv2@gmail.com"
+        }
+    },
+    {
+        "id": "623853b263ra",
+        "company_Logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9Chr4hZA1AtjFALaoRLSQ425V7gAOpQmNsA&usqp=CAU",
+        "job_title": "Motion Graphic Designer",
+        "Company_Name": "COTY",
+        "remote_or_Onsite": "Remote",
+        "Location": "Dhaka, Bangladesh",
+        "shidule": "Part Time",
+        "Salary": "60K - 80K",
+        "job_Description": "As a Marketing Manager at Coty, you will be responsible for developing and implementing marketing strategies to promote our products and services. You will work closely with cross-functional teams to deliver high-quality products and campaigns that meet business objectives and exceed customer expectations.",
+        "job_Responsibility":"Develop and implement marketing plans and campaigns to promote Coty's products and services.Conduct market research and analyze data to identify customer needs, preferences, and trends.",
+       "educational_Requirements":"Bachelor's degree in Marketing,",
+         "experiences":"4",
+        "Contact_information":{
+            "phone" : "01700000000",
+            "email" : "cotty2@gmail.com"
+        }
+    },
+    {
+        "id": "623853b263th",
+        "company_Logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsK-O64SkQNC72D10ItD4QH_Ow4OouwVWcJg&usqp=CAU",
+        "job_title": "Web desing and Development",
+        "Company_Name": "Upwork",
+        "remote_or_Onsite": "Remote",
+        "Location": "Dhaka, Bangladesh",
+        "shidule": "Full time",
+        "Salary": "60K - 80K",
+        "job_Description": "A Web Developer is responsible for designing and developing websites and web applications. They work closely with designers and other developers to create visually appealing and functional websites that meet client and user needs",
+        "job_Responsibility":"Design, develop, and maintain websites and web applications using HTML, CSS, JavaScript, and other programming languages",
+       "educational_Requirements":"Bachelor's degree in Computer Science, Web Development",
+         "experiences":"2-3",
+        "Contact_information":{
+            "phone" : "01600000000",
+            "email" : "upwk@gmail.com"
+        }
+    }
+]
