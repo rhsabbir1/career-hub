@@ -1,7 +1,9 @@
 import React from 'react';
+import { Link, useLoaderData } from 'react-router-dom'
 
-const Features = ({job}) => {
-    const {company_Logo,job_title,Company_Name,shidule,remote_or_Onsite,Salary,Location} = job;
+const Features = ({ job }) => {
+   
+    const {id, company_Logo, job_title, Company_Name, shidule, remote_or_Onsite, Salary, Location } = job;
     return (
         <div className='border-2 p-4 rounded-md'>
             <img className='w-32 rounded-md' src={company_Logo} alt="" />
@@ -11,12 +13,13 @@ const Features = ({job}) => {
                 <p className='border-2 p-1 rounded-md text-purple-800 font-semibold'>{remote_or_Onsite}</p>
                 <p className='border-2 p-1 rounded-md text-purple-800 font-semibold'>{shidule}</p>
             </div>
-            <div className='flex gap-4 mt-2'>
+            <div className='flex gap-4 my-4'>
                 <p>{Location}</p>
                 <p>{Salary}</p>
             </div>
-            <button className='btn mt-2'> View Details</button>
-            
+            <Link  to={`../details/${id}`} className='btn mt-2'>
+                View Details
+            </Link>
         </div>
     );
 };

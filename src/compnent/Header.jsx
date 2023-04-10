@@ -4,6 +4,7 @@ const Header = () => {
     return (
         <div>
             {/* header  */}
+            
             <div className='flex justify-around items-center py-4 bg-purple-100 '>
             <div className='text-3xl font-bold'>IT Job Hunt</div>
             <div className=''>
