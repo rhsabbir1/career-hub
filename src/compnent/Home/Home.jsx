@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css'
 import bannerImg from '../../../public/P3OLGJ1 copy 1.png'
+import JobList from '../JobLIst/JobList';
 
 const Home = () => {
     return (
@@ -16,6 +17,8 @@ const Home = () => {
                     <img src={bannerImg} alt="" />
                 </div>
             </div>
+            {/* Job Category */}
+            <JobList></JobList>
         </div>
     );
 };
