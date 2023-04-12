@@ -8,12 +8,14 @@ import DetailsJob from './compnent/JobFeauter/DetailsJob'
 import costomLoader from './Loader/CustonLoader'
 import ApplyedJOb from './compnent/ApplyedJob/ApplyedJOb'
 import Chart from './compnent/Chart/Chart'
+import ErroePage from './compnent/ErroePage/ErroePage'
 
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App></App>,
+    errorElement:<ErroePage></ErroePage>,
     children: [
       {
         path: '/',
@@ -31,6 +33,9 @@ const router = createBrowserRouter([
       {
         path:'/chart',
         element:<Chart></Chart>
+      },
+      {
+
       }
 
     ]
