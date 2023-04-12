@@ -5,13 +5,13 @@ import { addToDb } from '../../Utilites/Utilities';
 
 const DetailsJob = () => {
     const data = useLoaderData()
-     
-    const applyedJob = (data)=>{
+
+    const applyedJob = (data) => {
 
         addToDb(data.id)
     }
 
-   
+
     return (
         <div>
             {/* banner  */}
@@ -33,7 +33,7 @@ const DetailsJob = () => {
                         <h1 className='my-2'><span className='font-bold'>Salary</span> : {data.Salary}(per month)</h1>
                         <h1 className='my2'><span className='font-bold'>Job Title</span> : {data.job_title}</h1>
                         <h1 className='font-bold text-2xl my-2'>Contact Information</h1>
-                       
+
                         <h1 className='mt-2'><span className='font-bold'>Phone</span> : {data.phone}</h1>
                         <h1 className='mt-2'><span className='font-bold'>Email</span> : {data.email}</h1>
                         <h1 className='mt-2'><span className='font-bold'>Address</span> : {data.Location}</h1>

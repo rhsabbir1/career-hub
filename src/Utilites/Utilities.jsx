@@ -13,14 +13,6 @@ const addToDb = id => {
     localStorage.setItem('applyedJob', JSON.stringify(jobCart));
 }
 
-const removeFromDb = id => {
-    const jobCart = getjobCart();
-    if (id in jobCart) {
-        delete jobCart[id];
-        localStorage.setItem('applyedJob', JSON.stringify(jobCart));
-    }
-}
-
 const getjobCart = () => {
     let jobCart = {};
 
@@ -32,13 +24,7 @@ const getjobCart = () => {
     return jobCart;
 }
 
-const deletejobCart = () => {
-    localStorage.removeItem('applyedJob');
-}
-
 export {
     addToDb,
-    removeFromDb,
     getjobCart,
-    deletejobCart
 }
