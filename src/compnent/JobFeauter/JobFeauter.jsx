@@ -3,11 +3,19 @@ import Features from './Features';
 
 const JobFeauter = () => {
     const [jobs, setJobs] = useState([])
+
     useEffect(() => {
         fetch('JobFeatures.json')
             .then(res => res.json())
-            .then(data => setJobs(data.slice(0, 4)))
+            .then(data => setJobs(data))
+            
     }, [])
+
+    
+
+
+
+
     return (
         <div>
             <div className='text-center my-11 p-4'>
@@ -23,7 +31,7 @@ const JobFeauter = () => {
                 }
             </div>
             <div className='text-center m-10'>
-                <button className='btn'>Show All</button>
+                <button onClick={()=>showAllJObs()} className='btn'>Show All</button>
             </div>
         </div>
     );

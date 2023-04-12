@@ -1,13 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const ApplyJobs = ({ job }) => {
+const ApplyJobs = ({ job  }) => {
     return (
         <>
-            <div>
-                <button></button>
-                <button></button>
-            </div>
+            
             <div>
                 <div className='flex items-center justify-between border-2 rounded-md p-2 '>
                     <div className='flex gap-8'>
