@@ -7,6 +7,7 @@ import Home from './compnent/Home/Home'
 import DetailsJob from './compnent/JobFeauter/DetailsJob'
 import costomLoader from './Loader/CustonLoader'
 import ApplyedJOb from './compnent/ApplyedJob/ApplyedJOb'
+import Chart from './compnent/Chart/Chart'
 
 
 const router = createBrowserRouter([
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path:'/applyedJOb',
         element:<ApplyedJOb></ApplyedJOb>
+      },
+      {
+        path:'/chart',
+        element:<Chart></Chart>
       }
 
     ]
