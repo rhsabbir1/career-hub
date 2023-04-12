@@ -3,6 +3,7 @@ import Features from './Features';
 
 const JobFeauter = () => {
     const [jobs, setJobs] = useState([])
+    const [show, setshow] = useState(4)
 
     useEffect(() => {
         fetch('JobFeatures.json')
@@ -11,7 +12,9 @@ const JobFeauter = () => {
             
     }, [])
 
-    
+    const showAllJObs = ()=>{
+        setshow((previousValue) => previousValue+2)
+    }
 
 
 
@@ -24,14 +27,14 @@ const JobFeauter = () => {
             </div>
             <div className='w-3/5 mx-auto grid md:grid-cols-2 gap-4'>
                 {
-                    jobs.map(job => <Features
+                    jobs.slice(0 , show).map(job => <Features
                         key={job.id}
                         job={job}
                     ></Features>)
                 }
             </div>
             <div className='text-center m-10'>
-                <button onClick={()=>showAllJObs()} className='btn'>Show All</button>
+                <button onClick={showAllJObs} className='btn'>Show All</button>
             </div>
         </div>
     );

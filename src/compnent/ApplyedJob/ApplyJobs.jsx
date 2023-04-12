@@ -6,7 +6,7 @@ const ApplyJobs = ({ job  }) => {
         <>
             
             <div>
-                <div className='flex items-center justify-between border-2 rounded-md p-2 '>
+                <div className='flex items-center my-4 justify-between border-2 rounded-md p-2 '>
                     <div className='flex gap-8'>
                         <img className='h-24  w-48 object-cover' src={job.company_Logo} alt="" />
                         <div>

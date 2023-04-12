@@ -19,7 +19,7 @@ const Header = () => {
                         <nav>
                             <NavLink to="/" className={({ isActive }) => isActive ? 'active' : 'defalt'} href="">Home</NavLink>
 
-                            <NavLink className={({ isActive }) => isActive ? 'active' : 'defalt'} >Blog</NavLink>
+                            <NavLink to='/blog' className={({ isActive }) => isActive ? 'active' : 'defalt'} >Blog</NavLink>
 
                             <NavLink to='/chart' className={({ isActive }) => isActive ? 'active' : 'defalt'} >Statistics</NavLink>
 
@@ -84,6 +84,15 @@ const Header = () => {
                                                 Applyed Job
                                             </Link>
                                         </li>
+                                        <li>
+                                            <Link
+                                                to='/blog'
+                                                className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400'
+                                            >
+                                                Blog
+                                            </Link>
+                                        </li>
+                                       
                                     </ul>
                                 </nav>
                                 <div className='text-start'>

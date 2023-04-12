@@ -9,6 +9,7 @@ import costomLoader from './Loader/CustonLoader'
 import ApplyedJOb from './compnent/ApplyedJob/ApplyedJOb'
 import Chart from './compnent/Chart/Chart'
 import ErroePage from './compnent/ErroePage/ErroePage'
+import Blog from './compnent/Blog/Blog'
 
 
 const router = createBrowserRouter([
@@ -35,7 +36,8 @@ const router = createBrowserRouter([
         element:<Chart></Chart>
       },
       {
-
+          path: '/blog',
+          element : <Blog></Blog>
       }
 
     ]
